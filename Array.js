@@ -1,0 +1,15 @@
+    const arr =[1,2,3,4,5,6,7]
+
+    // const myarr = arr.slice(1,3)
+    // console.log(arr)
+    // console.log(myarr)
+    // const myarr2 = arr.splice(1,3)
+    // console.log(arr)
+    // console.log(myarr)
+    const myarr3 = arr.push(26)
+    console.log(arr)
+    const myarr4 = arr.pop()
+    const myarr5 = arr.join()
+    console.log(myarr3)
+    console.log(myarr4)
+    console.log(myarr5)
