@@ -69,31 +69,56 @@ const obj3 ={5:'E', 6:'F'}
 
 // console.log(obj6);
 
-const user=[
-    {
-        id:1,
-        name:"zaeemulhassn"
-    },
-    {
-        id:1,
-        name:"zaeemulhassn"
-    },
-    {
-        id:1,
-        name:"zaeemulhassn"
-    },
-    {
-        id:1,
-        name:"zaeemulhassn"
-    },
+// const user=[
+//     {
+//         id:1,
+//         name:"zaeemulhassn"
+//     },
+//     {
+//         id:1,
+//         name:"zaeemulhassn"
+//     },
+//     {
+//         id:1,
+//         name:"zaeemulhassn"
+//     },
+//     {
+//         id:1,
+//         name:"zaeemulhassn"
+//     },
     
-]
+// ]
 
 
-user[1].name
+// user[1].name
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty(isloggedin));
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty(isloggedin));
+
+
+const course = {
+    name:"zaeem",
+    Class:"10th",
+    Roll_Number :"34556"
+}
+
+
+const {name:myfullname}=course
+
+console.log(myfullname);
+
+
+// this is API format in JASON FORUM TWO TYPES OF FORMATE XML AND JASON .
+// AND JASON HAS TOW DIFFERRNT TYPES OBJECTS AND ARRAY FROUM THIS IS API FOMATE 
+// 
+
+// {
+// "NAME":"ZAEEM-UL-HASSAN"
+// "UNIVERSITY ":"USA"
+// "SECTION":"E"
+// "ROLL NUMBER ":"B-29462"
+
+// }
