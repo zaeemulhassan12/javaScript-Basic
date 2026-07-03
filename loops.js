@@ -92,16 +92,51 @@ for (const key in zaeem) {
 
 
 //in Map
-const map = new Map
-map.set('pak','pakistan')
-map.set('IR','IRAN')
-map.set('PORT','PORTUGAL')
-map.set('PORT','PORTUGAL')
+// const map = new Map
+// map.set('pak','pakistan')
+// map.set('IR','IRAN')
+// map.set('PORT','PORTUGAL')
+// map.set('PORT','PORTUGAL')
 
 
-for (const key in map) {
+// for (const key in map) {
     
-    console.log(key);
+//     console.log(key);
     
-}
+// }
 
+
+//foreach in arrow function
+
+ Array =["zaeem","usman","Ali","ahmad"]
+
+// Array.forEach(function(val1){
+// console.log(val1);
+
+// });
+
+// Array.forEach(item => {
+//     console.log(item);
+    
+// });
+
+//for each loop in ojects 
+const array =[
+    {
+        language :"python"
+    },
+        {
+        language :"javascript"
+    },
+        {
+        language :"ruby"
+    },
+    {
+        language :"React"
+    }
+]
+
+array.forEach((items)=>(
+    console.log(items)
+    
+))
