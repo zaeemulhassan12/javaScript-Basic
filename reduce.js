@@ -6,7 +6,30 @@ array =[1,2,3,4,5,6,7,8,9]
 
 // console.log(mynum);
 
-const mynum = array.reduce((acc,curral)=>(acc+curral))
+// const mynum = array.reduce((acc,curral)=>(acc+curral))
 
 
-console.log(mynum);
+// console.log(mynum);
+
+
+const shoppingcart =[
+    {
+        item:"Data science",
+        price: 444
+    },
+    {
+        item:"Ai",
+        price: 566
+    },    {
+        item:"java Script",
+        price: 888
+    },    {
+        item:"Python",
+        price: 34
+    },
+]
+
+
+const total = shoppingcart.reduce((acc,item)=>(item.price),0)
+
+console.log(total);
