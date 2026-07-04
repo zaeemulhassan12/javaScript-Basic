@@ -120,7 +120,7 @@ for (const key in zaeem) {
     
 // });
 
-//for each loop in ojects 
+//for each loop in ojects   
 const array =[
     {
         language :"python"
