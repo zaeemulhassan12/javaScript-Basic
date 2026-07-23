@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>ZAEEM UL HASSAN</h1>
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+</body>
+<script>
+
+//setimeout function
+//     const settime =() => {
+//     console.log('hy bro how are you');
+     
+//     }
+//  setTimeout(settime ,2000)
+
+//  const greet  = function () {
+//     document.querySelector('h1').innerHTML ="Hy Zaeem its me leo"
+//  }
+// const g =setTimeout(greet, 2000);
+
+// document.querySelector('#stop').addEventListener('click' , function(){
+
+//     clearTimeout(g)
+//     console.log('Stopped');
+    
+//setInterval
+
+let intervalId;
+const close=document.querySelector('#start').addEventListener('click', function(str){
+    
+    intervalId = setInterval(s, 2000, 'World Clock Time');
+   
+    console.log('start');
+    
+})
+const s = function (str) {
+    console.log(str,Date.now());
+    
+}
+
+
+   
+
+
+
+document.querySelector('#stop').addEventListener('click' , function(t){
+        clearInterval(intervalId)
+        console.log('Stop here');
+       
+        
+});
+
+</script>
+</html>
