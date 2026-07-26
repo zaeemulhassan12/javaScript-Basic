@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>api work</H1>
+</body>
+
+<script>
+const requesturl = "https://randomuser.me/api/"
+const xml = new XMLHttpRequest()
+    xml.open('GET' ,requesturl)
+    xml.onreadystatechange = function () {
+        console.log(xml.readyState);
+        if (xml.readyState==4) {
+            const data =xml.responseText
+            console.log(data);
+            console.log(data.gender);
+            
+        }
+    }
+
+    xml.send()
+</script>
+
+</html>
